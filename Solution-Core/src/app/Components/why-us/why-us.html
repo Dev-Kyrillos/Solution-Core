@@ -1,52 +1,51 @@
-<div class="all">
+<div class="all" [style.background]="bgColor">
   <div class="stars">
-  <img src="/star.svg" alt="star" class="star">
-  <img src="/star2.svg" alt="star2" class="star2">
-</div>
-<div class="main">
-  <h1>لماذا تحتاج سلوشين كور؟</h1>
+    @if (showStars) {
+      <img src="/star.svg" alt="star" class="star" />
+      <img src="/star2.svg" alt="star2" class="star2" />
+    }
+  </div>
+  <div class="main">
+    <h1>لماذا تحتاج سلوشين كور؟</h1>
 
-  <p>تماشيًا مع رؤية 2030، أصبحت التحولات الرقمية محور نمو الأعمال. لكن نجاحك الرقمي يعتمد على التخطيط الصحيح والتنفيذ المحترف. تقدر تعتمد على سلوشِن كور في بإننا سنمنحك الابتكار والسرعة، مع الكفاءة والجودة عالية، لنضمن لك انتشارًا رقميًا يعزز حضورك ويأخذ أعمالك إلى مستوى جديد!</p>
+    <p>
+      تماشيًا مع رؤية 2030، أصبحت التحولات الرقمية محور نمو الأعمال. لكن نجاحك الرقمي يعتمد على
+      التخطيط الصحيح والتنفيذ المحترف. تقدر تعتمد على سلوشِن كور في بإننا سنمنحك الابتكار والسرعة،
+      مع الكفاءة والجودة عالية، لنضمن لك انتشارًا رقميًا يعزز حضورك ويأخذ أعمالك إلى مستوى جديد!
+    </p>
 
-  <h2>ما يميزنا ويجعل عملاؤنا يثقون بنا</h2>
-<div class="container text-center why-us">
+    <h2>ما يميزنا ويجعل عملاؤنا يثقون بنا</h2>
+    <div class="container text-center why-us">
+      <!-- Row 1 -->
+      <div class="row g-4 justify-content-center">
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="/Quality.svg" class="feature-img" alt="quality" />
+        </div>
 
-  <!-- Row 1 -->
-  <div class="row g-4 justify-content-center">
-    <div class="col-6 col-md-4 col-lg-3">
-      <img src="/Quality.svg" class="feature-img" alt="quality">
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="/Time.svg" class="feature-img" alt="time" />
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="/Creativity.svg" class="feature-img" alt="creativity" />
+        </div>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="row g-4 justify-content-center mt-2">
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="/Support.svg" class="feature-img" alt="support" />
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="/Service.svg" class="feature-img" alt="service" />
+        </div>
+      </div>
     </div>
+    <div class="text-center mt-5">
+      <h3 class="fw-semibold mb-4">اكتشف إبداعاتنا في عالم التصميم والتطوير!</h3>
 
-    <div class="col-6 col-md-4 col-lg-3">
-      <img src="/Time.svg" class="feature-img" alt="time">
-    </div>
-
-    <div class="col-6 col-md-4 col-lg-3">
-      <img src="/Creativity.svg" class="feature-img" alt="creativity">
+      <button class="btn px-4 py-2" style="background: #8b2c3d; color: #fff">ملف أعمالنا</button>
     </div>
   </div>
-
-  <!-- Row 2 -->
-  <div class="row g-4 justify-content-center mt-2">
-    <div class="col-6 col-md-4 col-lg-3">
-      <img src="/Support.svg" class="feature-img" alt="support">
-    </div>
-
-    <div class="col-6 col-md-4 col-lg-3">
-      <img src="/Service.svg" class="feature-img" alt="service">
-    </div>
-  </div>
-
-</div>
-<div class="text-center mt-5">
-
-  <h3 class="fw-semibold mb-4">
-    اكتشف إبداعاتنا في عالم التصميم والتطوير!
-  </h3>
-
-  <button class="btn px-4 py-2" style="background:#8b2c3d; color:#fff;">
-    ملف أعمالنا
-  </button>
-
-</div>
 </div>

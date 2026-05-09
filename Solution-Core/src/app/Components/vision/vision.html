@@ -1,16 +1,20 @@
-<section class="cta-section">
+<section class="cta-section" [class.contact-style]="isContactStyle">
   <div class="overlay">
     <h1>
-      مستعد لخطوتك القادمة نحو التحول الرقمي والنجاح المستمر معنا؟
+      {{ title }}
     </h1>
 
-    <p>
-      أولويتنا أننا نسمع أفكارك، نفهم تحدياتك وطموحاتك، ونقدم لك الحلول المناسبة لتحقيق
-      التحول الرقمي بأعلى كفاءة
-    </p>
+<p>
 
-    <button>
-      احجز استشارتك المجانية
-    </button>
+  {{ description }}
+
+</p>
+
+<button
+[class.contact-btn]="isContactStyle">
+
+  {{ buttonText }}
+
+</button>
   </div>
 </section>

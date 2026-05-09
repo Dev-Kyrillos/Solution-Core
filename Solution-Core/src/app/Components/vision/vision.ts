@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
 
 @Component({
   selector: 'app-vision',
@@ -8,5 +8,12 @@ import { Component } from '@angular/core';
   styleUrl: './vision.css',
 })
 export class Vision {
+  @Input() description: string = '';
+
+  @Input() title: string = '';
+
+  @Input() buttonText: string = '';
+
+  @Input() isContactStyle: boolean = false;
 
 }

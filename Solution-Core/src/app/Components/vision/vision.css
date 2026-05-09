@@ -41,3 +41,26 @@
 .cta-section button:hover {
   background-color: #ff4f75;
 }
+
+.contact-style{
+
+  font-family: cairo;
+  background:
+  linear-gradient(to right,#df7165,#f0a074);
+
+  min-height: 350px;
+
+}
+
+.contact-style h1{
+
+  font-size: 48px;
+
+}
+.contact-btn{
+
+  background: white;
+
+  color: #d65b63;
+
+}

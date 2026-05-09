@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-why-us',
@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './why-us.css',
 })
 export class WhyUs {
-
+  @Input() showStars: boolean = true;
+  @Input() bgColor: string = '#FAF5F5';
 }
