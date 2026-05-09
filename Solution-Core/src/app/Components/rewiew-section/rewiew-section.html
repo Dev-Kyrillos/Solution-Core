@@ -1,0 +1,58 @@
+<section class="testimonials">
+
+  <!-- Title -->
+  <h2>من آراء عملاؤنا مع سوليوشن كور</h2>
+
+  <!-- Cards -->
+  <div class="cards">
+    <div class="card" *ngFor="let item of testimonials">
+
+      <div class="icon">👍</div>
+
+      <p>{{ item.text }}</p>
+
+      <span class="name">{{ item.name }}</span>
+
+      <div class="stars">
+        <span *ngFor="let star of [].constructor(item.rating)">★</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Dots -->
+  <div class="dots">
+    <span></span>
+    <span class="active"></span>
+  </div>
+
+</section>
+
+
+<!-- VIDEO SECTION -->
+<section class="videos">
+
+  <h2>
+    اسمع من عملائنا اللي وجدوا مع سوليوشن كور الحلول الأفضل
+    لنموهم الرقمي المستمر
+  </h2>
+
+  <div class="video-cards">
+    <div class="video-card" *ngFor="let video of videos">
+
+      <img [src]="video.image" alt="client">
+
+      <div class="play">▶</div>
+
+      <span class="client-name">{{ video.name }}</span>
+
+    </div>
+  </div>
+
+  <!-- Dots -->
+  <div class="dots">
+    <span></span>
+    <span class="active"></span>
+  </div>
+
+</section>

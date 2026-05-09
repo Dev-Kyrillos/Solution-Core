@@ -1,0 +1,89 @@
+.navbar {
+  background: #f9f3f1;
+  width: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  padding: 9px 57px;
+  margin: 0px;
+}
+
+.navbar-logo img {
+  height: 40px;
+  width: auto;
+  position: relative;
+  right: -25px;
+  inline-size: 80px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-logo img:hover {
+  transform: scale(1.1);
+}
+
+/* Navigation Menu */
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu a {
+  color: #29142e;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 15px 15px;
+  display: block;
+  font-family: 'Cairo', sans-serif;
+}
+
+.nav-menu a:hover {
+  color: #6d4759;
+}
+
+/* Contact Button */
+.contact-btn {
+  background: #29142e;
+  color: #ffffff;
+  padding: 13px 18px;
+  border-radius: 6px;
+  gap: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 9px;
+  transition: all 0.3s ease;
+  border: 0px solid transparent;
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  font-family: 'Cairo', sans-serif;
+}
+
+.contact-txt {
+  padding-right: 8px;
+}
+
+.fa-phone {
+  font-size: 14px;
+}
+
+.contact-btn:hover {
+  background: #6d4759;
+  color: black;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-container {
+    padding: 0 20px;
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 70px;
+  }
+}

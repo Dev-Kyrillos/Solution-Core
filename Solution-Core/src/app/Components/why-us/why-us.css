@@ -1,0 +1,65 @@
+.all {
+  background-color: #F8F1F1;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.star, .star2 {
+      position: absolute;
+}
+.star {
+    top: 2120px;
+    left: 640px;
+}
+.star2 {
+    top: 2155px;
+    left: 620px;
+}
+
+.main h1 {
+  color: #A5415B;
+  font-family: 'Cairo', sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 40px;
+  padding-top: 25px;
+}
+
+.main p {
+  font-family: 'Cairo', sans-serif;
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+  direction: rtl;
+  line-height: 2;
+  font-size: 18px;
+  color: #333;
+  font-weight: 550;
+}
+
+.why-us {
+  direction: rtl;
+}
+
+
+.feature-img {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* 🔥 makes it square */
+
+  object-fit: contain; /* keeps SVG clean */
+  background-color: #F8F1F1;
+
+  border-radius: 20px;
+  padding: 30px;
+
+  transition: 0.3s;
+}
+
+.feature-img:hover {
+  transform: translateY(-5px);
+}

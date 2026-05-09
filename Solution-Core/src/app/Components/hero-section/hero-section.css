@@ -1,0 +1,74 @@
+/* Hero Section Background */
+.hero-section-bg {
+  width: 100%;
+  background: linear-gradient(120deg, #d2605c 0%, #561d4e 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section-content {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Cairo', sans-serif;
+}
+
+.hero-section-step-box {
+  display: flex;
+}
+
+.hero-section-main-icon {
+  max-width: 1200px;
+  height: 500px;
+}
+
+.hero-section-step-icon {
+  position: absolute;
+  bottom: 307px;
+  right: 512px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hero-section-step-icon:hover {
+  transform: scale(1.1);
+}
+
+.hero-section-pattern {
+  position: absolute;
+  right: 0px;
+  width: 1520px;
+  height: auto;
+}
+
+@media (max-width: 900px) {
+  .hero-section-title {
+    font-size: 2rem;
+  }
+  .hero-section-step-text {
+    font-size: 2.5rem;
+  }
+  .hero-section-content {
+    padding: 40px 10px 20px 10px;
+  }
+}
+@media (max-width: 600px) {
+  .hero-section-title-row {
+    font-size: 1.2rem;
+    gap: 8px;
+  }
+  .hero-section-title {
+    font-size: 1.2rem;
+  }
+  .hero-section-step-text {
+    font-size: 1.2rem;
+  }
+  .hero-section-step-box {
+    padding: 0 10px;
+    min-height: 50px;
+  }
+  .hero-section-desc {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,119 @@
+.why-us-2-section{
+
+background: linear-gradient(90deg,#c65a55,#4b1248);
+
+padding:80px 0;
+
+color:white;
+
+direction:rtl;
+
+}
+
+
+/* images */
+
+.main-image img{
+
+width: 545.86279296875px;
+height: 299px;
+top: 3746px;
+left: 52.89px;
+opacity: 1;
+border-radius: 10px;
+
+
+}
+
+
+.small-images{
+
+display:flex;
+
+gap:15px;
+
+margin-top:20px;
+
+}
+
+
+.small-images img{
+
+width: 167.65072631835938px;
+height: 122px;
+top: 4072px;
+left: 431.1px;
+opacity: 1;
+border-radius: 10px;
+
+
+}
+
+
+
+/* text */
+
+.text-side{
+
+text-align:right;
+
+}
+
+
+.title{
+max-width: 655px;
+font-family: 'Cairo', sans-serif;
+font-weight: 700;
+font-size: 38px;
+line-height: 150%;
+letter-spacing: 0;
+text-align: right;
+color: #ffffff;
+}
+
+
+.desc{
+
+font-size:18px;
+
+line-height:1.8;
+
+margin-bottom:40px;
+
+color:#f5f5f5;
+
+}
+
+
+
+/* stats */
+
+.stats{
+
+display:flex;
+
+justify-content:space-between;
+
+margin-top:30px;
+
+}
+
+
+.stat h3{
+
+font-size:48px;
+
+color:#ffb07c;
+
+font-weight:700;
+
+margin-bottom:10px;
+
+}
+
+
+.stat span{
+
+font-size:18px;
+
+}

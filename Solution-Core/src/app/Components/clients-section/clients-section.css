@@ -1,0 +1,42 @@
+body {
+  background: #e9e3e3;
+}
+
+/* section */
+.clients {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* title */
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 70px;
+  color: #2d1b2e;
+  font-style: bold;
+}
+
+/* 🔥 THIS FIXES YOUR LAYOUT */
+.logos {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7 columns */
+  grid-template-rows: repeat(2, auto);   /* 2 rows */
+  gap: 40px;
+  justify-items: center;  /* center each logo */
+  align-items: center;
+  max-width: 900px;       /* controls overall width */
+  margin: auto;           /* center the grid */
+}
+
+/* logo size */
+.logos img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+.logos img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}

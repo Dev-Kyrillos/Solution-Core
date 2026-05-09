@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.split {
+  background: linear-gradient(91.9deg, #501848 0.61%, #6F2755 18.68%, #7F2F5C 36.57%, #9F4E63 53.38%, #BA6968 62.6%, #D0806D 70.19%, #DD826A 83.2%, #E48369 96.75%, #D25F5B 107.59%);
+  text-align: center;
+  height: 305px;
+}
+
+.split-text {
+  font-family: Cairo;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 42px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+color: aliceblue;
+padding: 90px 0 0 0;
+}
+.split-txt {
+  display: block;
+  font-family: Cairo;
+}
+.spark {
+  position:absolute;
+  left: 866.11px;
+  top: 1896.96px;
+  width: 40.000815606258705;
+  opacity: 1;
+}
